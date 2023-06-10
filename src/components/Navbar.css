@@ -20,12 +20,13 @@
 
 .vertical-navbar li{
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
     height: 75px;
     text-align: center;
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: 600;
 
     
 }
@@ -64,4 +65,43 @@
 .Auth-Title{
     padding-top: 50px;
     padding-left: 75px;
+}
+
+#Nav-ul{
+    text-align: left;
+    
+}
+
+#Nav-ul li{
+    padding-left: 70px ;
+    padding-top: 20px;
+    text-align: left;
+}
+
+#Nav-ul li:hover{
+    background: linear-gradient(to right, #1e88e5, #42a5f5);
+
+ 
+}
+
+
+
+
+#Nav-ul img{
+    width: 25px;
+    height: auto;
+    position: absolute;
+    filter: brightness(0) invert(1);
+    padding-top: 35px;
+    margin-left: 40px;
+}
+
+#speci{
+    width: 25px;
+    height: auto;
+    position: absolute;
+    filter: brightness(0) invert(1);
+    padding-top: 10px;
+    margin-left: 40px;
+    
 }

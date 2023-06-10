@@ -5,7 +5,6 @@
     right: 0;
     padding-top: 20px ;
     padding-bottom: 50px ;
-
 }
 
 input[type="text"]{
@@ -95,3 +94,8 @@ input[type="text"]{
     
 }
 
+
+
+#textbox{
+    width: 250px;
+}

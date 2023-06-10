@@ -15,11 +15,11 @@ function Home(){
             <Top />
 
         <div id="Displays">
-                <Display item={"person"}/>
+                <Display item={"person"} name={"Today's Users"} value={"2,300"}/>
                 
-                <Display item={"add"} />
-                <Display item={"cash"} />
-                <Display item={"chart"} />
+                <Display item={"add"} name={"New Clients"} value={"300"}/>
+                <Display item={"cash"} name={"Today's Money"} value={"$53K"} />
+                <Display item={"chart"} name={"Sales"} value={"$103,432"} />
             </div>
 
         </div>

@@ -1,4 +1,11 @@
 import "./Navbar.css"
+import home from "../images/home.svg"
+import log from "../images/log.svg"
+import notif2 from "../images/notif2.svg"
+import person1 from "../images/person1.svg"
+import person2 from "../images/person2.svg"
+import table from "../images/table.svg"
+
 
 function Navbar(){
     return(
@@ -9,19 +16,20 @@ function Navbar(){
             <div className="border" id="Border"></div>
 
             <nav className="vertical-navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul id="Nav-ul">
+            <img style = {{  paddingTop : 28 }}  src={home}></img><li><a href="#">About</a></li>
+            <img src={person1}></img><li><a href="#">Profile</a></li>
+            <img src={table}></img><li><a href="#">Tables</a></li>
+            <img src={notif2}></img><li><a href="#">Notifications</a></li>
+
             </ul>
             </nav>
             <div className="Auth">
                 <div className="Auth-Title">Auth</div>
                 <nav className="vertical-navbar">
-                <ul>
-                    <li><a href="#">Sign In</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                <ul id="Nav-ul">
+                <img src={log} style = {{  paddingTop : 28 }}></img><li><a href="#">Sign In</a></li>
+                <img src={person2}></img> <li><a href="#">Sign Up</a></li>
                 </ul>
             </nav>
                 

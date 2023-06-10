@@ -8,8 +8,8 @@ function Display(props){
    
         <div className="bg-white  h-56  rounded-3xl  shadow-2xl" id="box">
             <Snap item={props.item}/>
-            <div className="text-xl pl-40 text-gray-500  font-light mt-12">Today's Money</div>
-            <div className="text-shadow text-black text-3xl  pl-52 font-bold  text-shadow">$53k</div>
+            <div className="text-xl text-gray-500  font-light mt-12" id="text">{props.name}</div>
+            <div className="text-shadow text-black text-3xl  pl-48 font-bold  text-shadow" id="number">{props.value}</div>
 
            
             <div class="border border-gray-300 mt-10" id="Border"></div>
