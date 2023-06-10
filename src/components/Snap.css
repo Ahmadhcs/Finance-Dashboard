@@ -1,0 +1,24 @@
+.Square{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to right, #1e88e5, #42a5f5);
+
+       position: absolute;
+    margin-left: 30px;
+    border-radius: 20px;
+    top: -20px;
+    display: flex;
+    }
+
+
+#pic{
+    width: 36px;
+    height: 36px;
+    filter: brightness(0) invert(1);
+    justify-content: center;
+    align-items: center;
+    margin-left: 22px;
+    margin-top: 20px;
+    display:block;
+
+}

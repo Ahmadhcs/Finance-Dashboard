@@ -1,0 +1,67 @@
+.Title{
+    padding-top: 30px;
+    color: white;
+    padding-left: 75px;
+}
+
+.vertical-navbar{
+    padding-top: 20px;
+    
+}
+
+
+.vertical-navbar a{
+    color:white;
+
+    
+}
+
+
+
+.vertical-navbar li{
+    margin-top: 10px;
+    font-size: 30px;
+    height: 75px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+
+.vertical-navbar li:hover{
+    background-color:gray;
+    
+}
+
+.vertical-navbar li::selection{
+    background-color:yellow;
+    
+}
+
+
+#Nav{
+    height: 92vh;
+    position: fixed;
+    background: linear-gradient(#37474f, #263238);
+
+}
+
+#Border{
+    margin-top: 40px;
+    color:rgb(99, 99, 99);
+
+}
+
+.Auth{
+    font-size: 30px;
+    color:rgb(204, 205, 207);
+    
+}
+
+
+.Auth-Title{
+    padding-top: 50px;
+    padding-left: 75px;
+}

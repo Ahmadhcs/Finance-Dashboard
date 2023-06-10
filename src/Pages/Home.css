@@ -1,0 +1,18 @@
+.Fixing{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#Displays{
+    display: flex;
+    padding-left: 450px;
+    padding-top: 80px;
+}
+
+.Dash{
+    display: flex;
+    flex-direction: column;
+}

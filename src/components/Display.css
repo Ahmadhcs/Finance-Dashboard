@@ -1,0 +1,26 @@
+
+#box{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 450px;
+    position: relative;
+    overflow: visible;
+}
+
+.Percent{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Duration{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#Bottom{
+    }
+
+#Border{
+    opacity: 0.3;
+}

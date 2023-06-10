@@ -1,0 +1,97 @@
+.Buttons{
+    display: flex;
+    
+    position: absolute;
+    right: 0;
+    padding-top: 20px ;
+    padding-bottom: 50px ;
+
+}
+
+input[type="text"]{
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    font-weight: 300px;
+    margin-right: 20px;
+    margin-top: 3.5px;
+
+}
+
+#Ya{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#sign{
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%);
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+#sign-small{
+    margin-left: 10px;
+    margin-top: 8px !important;
+    
+    filter: grayscale(100%);
+    
+    
+}
+
+
+#small-li{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#need{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3px !important;
+}
+
+#top{
+    display: flex;
+    padding-right: 20px;
+}
+
+#top img{
+    filter: grayscale(100%);
+    width: 30px;
+    height: 30px;
+     margin-top: 6px;
+
+}
+
+#need p{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    color:rgb(102, 124, 137);
+    font-size: 10;
+
+}
+
+#need:hover{
+    background-color: #CDCDCD;
+    border-radius: 10px;
+    transition: 0.5 ease;
+
+
+}
+
+#small-li:hover{
+    background-color: #CDCDCD;
+    border-radius: 10px;
+    
+    
+}
+
