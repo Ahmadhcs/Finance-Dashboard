@@ -11,6 +11,10 @@ ChartJS.register(LineElement,CategoryScale,LinearScale,PointElement)
 
 function Graph(){
 
+    const data = {
+        labels: ["M", 'T', 'W', 'T', 'F',"S","S"],
+    }
+
 
     return(
    
