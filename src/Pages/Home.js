@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Snap from "../components/Snap";
 import "./Home.css"
 import Top from "../components/Top";
+import Graph from "../components/Graph";
 function Home(){
     return(
         <>
@@ -22,6 +23,9 @@ function Home(){
                 <Display item={"chart"} name={"Sales"} value={"$103,432"} />
             </div>
 
+        </div>
+        <div id="Graphs">
+            <Graph />    
         </div>
           
 

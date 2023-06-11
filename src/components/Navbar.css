@@ -85,6 +85,12 @@
 }
 
 
+#Nav-ul li::selection{
+    background: linear-gradient(to right, #1e88e5, #42a5f5);
+
+ 
+}
+
 
 
 #Nav-ul img{
