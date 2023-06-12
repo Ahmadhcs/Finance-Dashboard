@@ -25,7 +25,9 @@ function Home(){
 
         </div>
         <div id="Graphs">
-            <Graph />    
+            <Graph />   
+            <Graph /> 
+            <Graph />  
         </div>
           
 

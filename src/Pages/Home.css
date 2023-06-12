@@ -20,4 +20,6 @@
 #Graphs{
     padding-left: 25%;
     padding-top: 2.5%;
+    width: 78%;
+    display: flex;
 }
